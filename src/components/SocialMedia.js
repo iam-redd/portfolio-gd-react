@@ -1,42 +1,28 @@
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { SiTelegram, SiInstagram,  } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function SocialMedia() {
   return (
     <ul className="home-about-social-links">
       <li className="social-icons">
         <a
-          href="https://github.com/sunilyadav8"
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
         >
-          <AiFillGithub className="social-icon" />
+          <SiTelegram className="social-icon" />
         </a>
       </li>
       <li className="social-icons">
         <a
-          href="https://www.linkedin.com/in/sunilkumaryadav84/"
-          target="_blank"
-          rel="noreferrer"
-          className="icon-colour  home-social-icons"
-        >
-          <FaLinkedinIn className="social-icon" />
-        </a>
-      </li>
-      <li className="social-icons">
-        <a
-          href="https://www.instagram.com/sunil.yadav84/"
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"
         >
-          <AiFillInstagram className="social-icon" />
+          <SiInstagram className="social-icon" />
         </a>
       </li>
       <li className="social-icons">

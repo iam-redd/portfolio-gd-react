@@ -17,7 +17,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #ffffff;
+  background-color: #DBE2EF;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -30,7 +30,7 @@ html {
       width: 100%;
       height: 100%;
       z-index: 999999;
-      background-color: #ffffff;
+      background-color: #DBE2EF;
       background-repeat: no-repeat;
       background-position: center;
   }
@@ -74,7 +74,7 @@ html {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #212038d8 !important;
+  background-color: #F9F7F7 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -85,7 +85,7 @@ html {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
-  background-color: #343e47;
+  background-color: #F9F7F7;
 }
 
 .navbar-toggler {
@@ -97,7 +97,7 @@ html {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #ffffff !important;
+  background-color: #112D4E !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -144,7 +144,7 @@ html {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #343e47 !important;
+    background-color: #F9F7F7 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -160,7 +160,7 @@ html {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: #112D4E !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -194,7 +194,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #ffffff;
+  background: #112D4E;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -359,15 +359,15 @@ html {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 60px !important;
-  height: 60px !important;
+  width: 50px !important;
+  height: 50px !important;
   text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
-  background: #343e47 !important;
+  font-size: 1.7em !important;
+  line-height: 1.1em !important;
+  background: #112D4E !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
-  border: 1px solid #343e47;
+  border: 1px solid #112D4E;
 }
 
 .home-social-icons::before {
@@ -378,7 +378,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #5b585c;
+  background: #112D4E;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -413,8 +413,9 @@ html {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #343e47;
+  background-color: #112D4E;
   bottom: 0 !important;
+  font-weight: 100 !important;
 }
 .footer-copywright {
   text-align: center !important;
@@ -437,7 +438,7 @@ html {
 
 .footer h3 {
   font-size: 1em;
-  color: white !important;
+  color: #F9F7F7 !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }

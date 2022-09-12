@@ -49,7 +49,7 @@ function Home() {
                 {" "}
                 Hamkorlik loyihalari yoki men bilan bog`lanmoqchi bo`lsangiz
                 <br />
-                <strong>Quyidagi o`zingizga qulay platformada yozing</strong>
+                <strong>Quyidagi ijtimoiy tarmoqlarda menga yozishingiz mumkin</strong>
               </p>
               <SocialMedia />
             </Col>

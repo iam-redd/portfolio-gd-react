@@ -6,10 +6,10 @@ function Preloader(props) {
   return (
     <div id={props.load ? "preloader" : "preloader-none"}>
       <Loader
-        type="Plane"
-        color="#343e47"
-        height={100}
-        width={100}
+        type="Bars"
+        color="#112D4E"
+        height={200}
+        width={200}
       />
     </div>
   );
