@@ -32,7 +32,7 @@ function App() {
           <Navbar />
           <ScrollToTop />
           <Switch>
-            <Route path="/nigmatjonov" exact component={Home} />
+            <Route path="/" exact component={Home} />
             <Route path="/project" component={Projects} />
             <Route path="/about" component={About} />
             
