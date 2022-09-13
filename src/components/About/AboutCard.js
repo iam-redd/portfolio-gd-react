@@ -35,7 +35,7 @@ function AboutCard() {
             
           </ul>
           <p style={{ textAlign: "justify" }}>
-          <strong >Veb sayt dasturlashda foydalanadigan texnologiyalar:</strong>
+          Veb sayt dasturlashda foydalanadigan texnologiyalar:
           </p>
           <ul>
             <li className="about-activity">
