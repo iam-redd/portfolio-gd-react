@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import developer from "../../Assets/developer.jpg";
-import { SKILLS, TOOLS } from "../../Constants";
+import developer from "../../Assets/dev.jpg";
 
 function About() {
   return (
@@ -19,15 +17,15 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              <strong className="purple">About Me</strong>
+              <strong className="purple">Kim?</strong>
             </h1>
             <Aboutcard />
           </Col>
-          <Col md={5} style={{ paddingBottom: "50px" }} className="about-img">
-            <img src={developer} alt="about" className="image-style" />
+          <Col md={5} style={{ paddingBottom: "50px", paddingTop: "70px" }} className="about-img">
+            <img src={developer} alt="about" className="image-style" style={{borderRadius: "30%"}} />
           </Col>
         </Row>
-        <Row className="skill-tools-wrapper">
+        {/*<Row className="skill-tools-wrapper">
           <Col className="skill-wrapper">
             <h1 className="project-heading">
               Professional <strong className="purple">Skillset </strong>
@@ -50,7 +48,8 @@ function About() {
               </ul>
             ))}
           </Col>
-        </Row>
+            </Row>*/}
+            
       </Container>
     </Container>
   );
