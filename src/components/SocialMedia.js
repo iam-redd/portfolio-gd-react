@@ -1,38 +1,39 @@
 import React from "react";
-import { SiTelegram, SiInstagram,  } from "react-icons/si";
-import { MdEmail } from "react-icons/md";
-
+import { SiTelegram, SiInstagram, SiLivechat } from "react-icons/si";
 function SocialMedia() {
   return (
     <ul className="home-about-social-links">
       <li className="social-icons">
         <a
-          href="#"
+          href="https://t.me/Nigmatjonov1064_Portfolio"
           target="_blank"
           rel="noreferrer"
+          
           className="icon-colour  home-social-icons"
         >
-          <SiTelegram className="social-icon" />
+          <SiTelegram title="Telegram kanalim" className="social-icon" />
         </a>
       </li>
       <li className="social-icons">
         <a
-          href="#"
+          href="https://instagram.com/odiljon_nigmatjonov?igshid=YmMyMTA2M2Y="
           target="_blank"
           rel="noreferrer"
+          
           className="icon-colour home-social-icons"
         >
-          <SiInstagram className="social-icon" />
+          <SiInstagram title="Instagram profilim" className="social-icon" />
         </a>
       </li>
       <li className="social-icons">
         <a
-          href="mailto:sunilyadav8404@gmail.com"
+          href="https://t.me/Odiljon_nigmatjonov"
           target="_blank"
           rel="noreferrer"
+          
           className="icon-colour home-social-icons"
         >
-          <MdEmail className="social-icon" />
+          <SiLivechat title="Telegramda shaxsiy xabar" className="social-icon" />
         </a>
       </li>
     </ul>

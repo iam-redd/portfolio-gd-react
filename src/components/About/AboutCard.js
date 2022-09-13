@@ -1,8 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
-import { SiAdobepremierepro, SiAdobephotoshop, SiAdobeillustrator, SiAdobeaftereffects, SiVisualstudiocode,
-  SiHtml5, SiCss3, SiJavascript, SiReact, SiSass, SiGit  } from "react-icons/si";
+import { SiAdobepremierepro, SiAdobephotoshop, SiAdobeillustrator, SiAdobeaftereffects, SiHtml5, SiCss3, SiJavascript, SiReact, SiSass, SiGit  } from "react-icons/si";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
