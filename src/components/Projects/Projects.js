@@ -8,10 +8,10 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mening ohirgi <strong className="purple">ishlarim </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        <p style={{ color: "#212529" }}>
+          Yaqin oradagi ishlarimdan bir nechta namunalar.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {PROJECTS.map((project, index) => (

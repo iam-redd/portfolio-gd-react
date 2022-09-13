@@ -1,36 +1,60 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { SiAdobepremierepro, SiAdobephotoshop, SiAdobeillustrator, SiAdobeaftereffects, SiVisualstudiocode,
+  SiHtml5, SiCss3, SiJavascript, SiReact, SiSass, SiGit  } from "react-icons/si";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sunil Yadav </span>
-            from <span className="purple"> Lucknow, India.</span>
+            Barchaga salom, men <span className="purple">Odiljon Nig`matjonov. </span>
+             <span className="purple"> O`zbekiston, Toshkentda</span> yashayman.
             <br />
-            Software Engineer who loves to transform ideas into reality using
-            code.
+            Grafik dizaynni juda ham yoqtiraman, bu ishni professional darajada mukammal o`rganish yo`lidaman.
             <br />
-            Motivated designer and developer with experience creating
-            custom websites with ReactJs, JavaScript, HTML5, CSS3. Shopify app using ReactJs, Javascript, Polaris, Graphql, nodejs, Koajs
-            and Mobile App using React-native.
+            Motivatsion va sotiluvchan elektron sahifalar dizayni, posterlar, bannerlar yaratish, suratlarga professional ishlov berish bilan birgalikda, hamkorlikda sotiluvchan bir sahifalik (SPA), adaptiv saytlar yaratish bilan shug`ullanaman.
+
             <br />
-            Apart from coding, some other activities that I love to do!
+            <strong>Asosiy foydalanadigan dasturlarim:</strong>
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <SiAdobephotoshop className="tools-icon" title="Adobe Photoshop" /> 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <SiAdobeillustrator className="tools-icon" title="Adobe Illustrator" /> 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <SiAdobeaftereffects className="tools-icon" title="Adobe After Effects" /> 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <SiAdobepremierepro className="tools-icon" title="Adobe Premiere Pro" /> 
+            </li>
+            
+          </ul>
+          <p style={{ textAlign: "justify" }}>
+          <strong >Veb sayt dasturlashda foydalanadigan texnologiyalar:</strong>
+          </p>
+          <ul>
+            <li className="about-activity">
+              <SiHtml5 className="tools-icon" title="HTML5" /> 
+            </li>
+            <li className="about-activity">
+              <SiCss3 className="tools-icon" title="CSS3" /> 
+            </li>
+            <li className="about-activity">
+              <SiJavascript className="tools-icon" title="JavaScript" /> 
+            </li>
+            <li className="about-activity">
+              <SiReact className="tools-icon" title="ReactJS" /> 
+            </li>
+            <li className="about-activity">
+              <SiSass className="tools-icon" title="Sass" /> 
+            </li>
+            <li className="about-activity">
+              <SiGit className="tools-icon" title="Git" /> 
             </li>
           </ul>
         </blockquote>

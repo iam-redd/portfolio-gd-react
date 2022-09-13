@@ -1,5 +1,5 @@
 html {
-  --imp-text-color: #414141;
+  --imp-text-color: #112D4E;
 }
 
 .purple {
@@ -265,7 +265,7 @@ html {
 
 .home-content {
   padding: 3rem 0 0rem !important;
-  color: #414141;
+  color: #112D4E;
   text-align: left;
 }
 
@@ -288,17 +288,17 @@ html {
 }
 
 .main-name {
-  color: #414141;
+  color: #112D4E;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #414141 !important;
+  color: #112D4E !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #414141 !important;
+  color: #112D4E !important;
 }
 
 @media (max-width: 767px) {
@@ -330,7 +330,7 @@ html {
 }
 
 .home-about-description {
-  color: #414141 !important;
+  color: #112D4E !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -345,7 +345,7 @@ html {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: #414141 !important;
+  color: #112D4E !important;
 }
 
 .home-about-social-links {
@@ -386,13 +386,13 @@ html {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #414141;
+  box-shadow: 0 0 15px #112D4E;
 }
 
 .home-social-icons:hover {
-  color: #414141;
-  box-shadow: 0 0 5px #414141;
-  text-shadow: 0 0 2px #414141;
+  color: #112D4E;
+  box-shadow: 0 0 5px #112D4E;
+  text-shadow: 0 0 2px #112D4E;
 }
 
 .social-icons {
@@ -449,7 +449,7 @@ html {
 }
 
 .blockquote-footer {
-  color: #414141 !important;
+  color: #112D4E !important;
   font-weight: bold;
 }
 /* --------- */
@@ -472,7 +472,7 @@ html {
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px #343e47 !important;
-  color: #414141 !important;
+  color: #112D4E !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -543,7 +543,7 @@ html {
   box-shadow: none !important;
 }
 .project-heading {
-  color: #414141 !important;
+  color: #112D4E !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -559,7 +559,7 @@ html {
   padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: #414141 !important;
+  color: #112D4E !important;
 }
 
 .tech-icons {
@@ -567,7 +567,7 @@ html {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid #414141 !important;
+  border: 1.7px solid #112D4E !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -595,14 +595,20 @@ html {
 
 .quote-card-view {
   border: none !important;
-  color: #414141 !important;
+  color: #112D4E !important;
   background-color: transparent !important;
 }
 
 .about-activity {
   list-style: none !important;
-  text-align: left !important;
+  text-align: center !important;
   padding-left: 1px !important;
+  margin-left: 1.5em;
+  display: inline;   
+}
+.tools-icon{
+  width: 50px !important;
+  height: 50px !important;
 }
 
 @media (max-width: 767px) {
@@ -619,7 +625,7 @@ html {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: #414141 !important;
+  color: #112D4E !important;
 }
 
 .resume {
@@ -769,7 +775,7 @@ html {
   margin-left: 10%;
 }
 .skill-wrapper {
-  border-right: 1px solid #414141;
+  border-right: 1px solid #112D4E;
   box-shadow: 0 4px 5px 3px rgba(59, 56, 59, 0.459) !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -791,9 +797,8 @@ html {
 }
 .profile-pic {
   border-radius: 50%;
-  height: 70%;
-  width: 65%;
-  margin-top: 12%;
+  width: 70%;
+  margin-top: 25%;
   margin-left: 25%;
 }
 

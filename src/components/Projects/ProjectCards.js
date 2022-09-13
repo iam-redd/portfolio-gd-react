@@ -9,13 +9,13 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title style={{fontWeight: "bold"}}>{props.title}</Card.Title>
-        <Card.Text className="purple">Technology: {props.technologyUsed}</Card.Text>
+        <Card.Text className="purple">{props.technologyUsed} yordamida</Card.Text>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.link} target="_blank"className="download-button">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
+          {props.isBlog ? "Loyihaga o`tish" : "Loyihani to`liq ko`rish"}
         </Button>
       </Card.Body>
     </Card>
