@@ -22,7 +22,7 @@ function About() {
             <Aboutcard />
           </Col>
           <Col md={5} style={{ paddingBottom: "50px", paddingTop: "70px" }} className="about-img">
-            <img src={developer} alt="about" className="image-style" style={{borderRadius: "30%"}} />
+            <img src={developer} alt="about" className="image-style" style={{borderRadius: "20%"}} />
           </Col>
         </Row>
         {/*<Row className="skill-tools-wrapper">

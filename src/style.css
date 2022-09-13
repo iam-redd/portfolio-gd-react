@@ -789,7 +789,7 @@ html {
   background-color: #000000 !important;
 }
 .image-style {
-  height: 85%;
+ margin-top: 3em;
   width: 90%;
 }
 .project-title {

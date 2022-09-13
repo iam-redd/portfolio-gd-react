@@ -15,7 +15,12 @@ function AboutCard() {
             Motivatsion va sotiluvchan elektron sahifalar dizayni, posterlar, bannerlar yaratish, suratlarga professional ishlov berish bilan birgalikda, hamkorlikda sotiluvchan bir sahifalik (SPA), adaptiv saytlar yaratish bilan shug`ullanaman.
 
             <br />
-            <strong>Asosiy foydalanadigan dasturlarim:</strong>
+            
+          </p>
+        </blockquote>
+        <blockquote>
+        <p style={{ textAlign: "justify" }}>
+          <strong>Asosiy foydalanadigan dasturlarim:</strong>
           </p>
           <ul>
             <li className="about-activity">
