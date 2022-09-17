@@ -19,7 +19,7 @@ function AboutCard() {
           </p>
         </blockquote>
         <blockquote>
-        <p style={{ textAlign: "justify" }}>
+        <p>
           <strong>Asosiy foydalanadigan dasturlarim:</strong>
           </p>
           <ul>
@@ -37,7 +37,7 @@ function AboutCard() {
             </li>
             
           </ul>
-          <p style={{ textAlign: "justify" }}>
+          <p>
           Veb sayt dasturlashda foydalanadigan texnologiyalar:
           </p>
           <ul>
