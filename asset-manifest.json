@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nigmatjonov/static/css/main.ba329959.css",
+    "main.js": "/nigmatjonov/static/js/main.34f2b4b2.js",
+    "static/media/the-flash-move-poster-home-work.png": "/nigmatjonov/static/media/the-flash-move-poster-home-work.99c703c34f821cd07524.png",
+    "static/media/hongi.jpg": "/nigmatjonov/static/media/hongi.63211aa163ef5a2ed552.jpg",
+    "static/media/panasonic.jpg": "/nigmatjonov/static/media/panasonic.078a876e03e7f963e9d8.jpg",
+    "static/media/texnomart.jpg": "/nigmatjonov/static/media/texnomart.4c9e0f1f68d3449beabe.jpg",
+    "static/media/imtihon.jpg": "/nigmatjonov/static/media/imtihon.903c9a1939f334ade2e0.jpg",
+    "static/media/bolacha.jpg": "/nigmatjonov/static/media/bolacha.b108b084d99102483e28.jpg",
+    "static/media/volvo-matras.jpg": "/nigmatjonov/static/media/volvo-matras.c51272d6a79b70b3764b.jpg",
+    "static/media/borjomi-smd-poster.jpg": "/nigmatjonov/static/media/borjomi-smd-poster.d8cef941b1230d1aacc1.jpg",
+    "static/media/Bolalar-IT-redesign.jpg": "/nigmatjonov/static/media/Bolalar-IT-redesign.bc4786a6aa05fc0c20b1.jpg",
+    "static/media/ava.jpg": "/nigmatjonov/static/media/ava.918dca5188463ffd2da8.jpg",
+    "static/media/pepsi.jpg": "/nigmatjonov/static/media/pepsi.8aa87e78a8258a1857be.jpg",
+    "static/media/dev.jpg": "/nigmatjonov/static/media/dev.0d7a1f04b9c41d18d76c.jpg",
+    "index.html": "/nigmatjonov/index.html",
+    "main.ba329959.css.map": "/nigmatjonov/static/css/main.ba329959.css.map",
+    "main.34f2b4b2.js.map": "/nigmatjonov/static/js/main.34f2b4b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba329959.css",
+    "static/js/main.34f2b4b2.js"
+  ]
+}
